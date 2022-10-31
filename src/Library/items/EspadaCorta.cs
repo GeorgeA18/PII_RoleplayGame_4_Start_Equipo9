@@ -3,6 +3,9 @@ namespace RoleplayGame.Items
     /// <summary>
     /// Espada corta. Permite atacar levemente. 
     /// </summary>
+    /// <remarks>
+    /// Responsable: Milagros Varela
+    /// </remarks>
     public class EspadaCorta: IAttackItem
     {
         /// <summary>
