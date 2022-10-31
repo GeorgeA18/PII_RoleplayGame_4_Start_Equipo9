@@ -3,7 +3,7 @@ namespace RoleplayGame.Items
     /// <summary>
     /// Palo. Permite atacar levemente. 
     /// </summary>
-    public class Stick: IAttackItem
+    public class Palo: IAttackItem
     {
         /// <summary>
         /// El poder de ataque.

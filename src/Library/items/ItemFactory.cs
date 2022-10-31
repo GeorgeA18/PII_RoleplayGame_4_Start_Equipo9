@@ -13,6 +13,7 @@ namespace RoleplayGame.Items
         ArcoDeSangre = 6,
         BastonMagico = 7,
         GuanteDePoder = 8,
+        Palo = 9,
     }
 
     /// <summary>
@@ -37,6 +38,7 @@ namespace RoleplayGame.Items
                 case ItemType.ArcoDeSangre: return new ArcoDeSangre();
                 case ItemType.BastonMagico: return new BastonMagico();
                 case ItemType.GuanteDePoder: return new GuanteDePoder();
+                case ItemType.Palo: return new Palo();
 
                 default: return null;
             }
