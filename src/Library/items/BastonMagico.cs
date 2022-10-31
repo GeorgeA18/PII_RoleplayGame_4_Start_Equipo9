@@ -6,7 +6,7 @@ namespace RoleplayGame.Items
     public class BastonMagico: IAttackItem, IDefenseItem
     {
         private Magic magic = new Magic();
-        private Stick stick = new Stick();
+        private Palo palo = new Palo();
 
         /// <summary>
         /// El poder de ataque
@@ -16,7 +16,7 @@ namespace RoleplayGame.Items
         {
             get
             {
-                return magic.AttackPower + stick.AttackPower;
+                return magic.AttackPower + palo.AttackPower;
             }
         }
 
