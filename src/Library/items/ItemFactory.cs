@@ -11,6 +11,8 @@ namespace RoleplayGame.Items
         EscudoPicudo = 4,
         CorazaDeEspinas = 5,
         ArcoDeSangre = 6,
+        BastonMagico = 7,
+        GuanteDePoder = 8,
     }
 
     /// <summary>
@@ -33,6 +35,8 @@ namespace RoleplayGame.Items
                 case ItemType.EscudoPicudo: return new EscudoPicudo();
                 case ItemType.CorazaDeEspinas: return new CorazaDeEspinas();
                 case ItemType.ArcoDeSangre: return new ArcoDeSangre();
+                case ItemType.BastonMagico: return new BastonMagico();
+                case ItemType.GuanteDePoder: return new GuanteDePoder();
 
                 default: return null;
             }

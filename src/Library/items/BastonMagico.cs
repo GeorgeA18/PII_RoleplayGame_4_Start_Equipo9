@@ -3,7 +3,7 @@ namespace RoleplayGame.Items
     /// <summary>
     /// Bastón mágico. Permite más ataque mágico.
     /// </summary>
-    public class MagicStaff: IAttackItem, IDefenseItem
+    public class BastonMagico: IAttackItem, IDefenseItem
     {
         private Magic magic = new Magic();
         private Stick stick = new Stick();
@@ -34,7 +34,7 @@ namespace RoleplayGame.Items
 
         public override string ToString()
         {
-            return "Magic Staff";
+            return "Baston mágico";
         }
     }
 }
