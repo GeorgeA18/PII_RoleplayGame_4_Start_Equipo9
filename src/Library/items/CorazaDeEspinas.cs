@@ -3,9 +3,11 @@ using System;
 namespace RoleplayGame.Items;
 
 /// <summary>
-/// Item de defensa 
+/// Coraza de espinas. Permite defenderse.
 /// </summary>
-/// </remark>Esta clase es responsablidad de Jorge Avila</remark>
+/// <remarks>
+/// Responsable: Jorge Avila
+/// </remarks>
 public class CorazaDeEspinas : IDefenseItem
 {
     /// <summary>
@@ -17,8 +19,12 @@ public class CorazaDeEspinas : IDefenseItem
         get
         {
             return 80;
-        } 
+        }
     
     }
+    public override string ToString()
+        {
+            return "Coraza de espinas";
+        }
 
 }
