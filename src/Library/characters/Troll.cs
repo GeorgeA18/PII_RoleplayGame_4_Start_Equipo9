@@ -15,7 +15,7 @@ namespace RoleplayGame.Characters
             : base(name)
         {
             this.Health = 80;
-            this.AddItem(new Stick());
+            this.AddItem(new Palo());
             this.AddItem(new Coraza());
         }
     }
