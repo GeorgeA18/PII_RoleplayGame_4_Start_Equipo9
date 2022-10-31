@@ -1,8 +1,11 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// Interfaz que permite crear elementos de ataque.
+    /// Escudo picudo. Permite defenderse.
     /// </summary>
+    /// <remarks>
+    /// Responsable: Manuel Mongelós
+    /// </remarks>
     public class EscudoPicudo : IDefenseItem
     {
         /// <summary>

@@ -1,12 +1,9 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// Espada corta. Permite atacar levemente. 
+    /// Palo. Permite atacar levemente. 
     /// </summary>
-    /// <remarks>
-    /// Responsable: Milagros Varela
-    /// </remarks>
-    public class EspadaCorta: IAttackItem
+    public class Stick: IAttackItem
     {
         /// <summary>
         /// El poder de ataque.
@@ -16,13 +13,13 @@ namespace RoleplayGame.Items
         {
             get
             {
-                return 15;
+                return 10;
             }
         }
 
         public override string ToString()
         {
-            return "Espada corta";
+            return "Palo";
         }
     }
 }

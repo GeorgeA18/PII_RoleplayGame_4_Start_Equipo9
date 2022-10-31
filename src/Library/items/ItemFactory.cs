@@ -7,6 +7,10 @@ namespace RoleplayGame.Items
     {
         Magic = 1,
         Robes = 2,
+        EspadaCorta = 3,
+        EscudoPicudo = 4,
+        CorazaDeEspinas = 5,
+        ArcoDeSangre = 6,
     }
 
     /// <summary>
@@ -25,6 +29,10 @@ namespace RoleplayGame.Items
             {
                 case ItemType.Magic: return new Magic();
                 case ItemType.Robes: return new Robes();
+                case ItemType.EspadaCorta: return new EspadaCorta();
+                case ItemType.EscudoPicudo: return new EscudoPicudo();
+                case ItemType.CorazaDeEspinas: return new CorazaDeEspinas();
+                case ItemType.ArcoDeSangre: return new ArcoDeSangre();
 
                 default: return null;
             }
