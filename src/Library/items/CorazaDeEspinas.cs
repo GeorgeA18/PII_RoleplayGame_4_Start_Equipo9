@@ -17,8 +17,8 @@ public class CorazaDeEspinas : IDefenseItem
         get
         {
             return 80;
-        } 
-    
+        }
+
     }
 
 }
