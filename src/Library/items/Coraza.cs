@@ -3,12 +3,12 @@ using System;
 namespace RoleplayGame.Items;
 
 /// <summary>
-/// Coraza de espinas. Permite defenderse.
+/// Coraza de Troll. Permite defenderse.
 /// </summary>
 /// <remarks>
 /// Responsable: Jorge Avila
 /// </remarks>
-public class CorazaDeEspinas : IDefenseItem
+public class Coraza : IDefenseItem
 {
     /// <summary>
     /// El poder de defensa.
